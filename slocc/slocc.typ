@@ -1,5 +1,4 @@
-#import "lib.typ"
-#import lib:*
+#import "/lib.typ": *
 #show: thmrules
 
 #def("SLOCC")[
@@ -11,7 +10,7 @@
 只要作用在单个比特上的矩阵是一个可逆矩阵（属于一般线性群 $G L(2, bb(C)$，即行列式不为 0），它就是一个合法的 SLOCC 操作。
 基于此，*仅有九种四体纠缠家族*。
 #figure(
-  image("figure/9class.PNG", width: 50%), 
+  image("/figure/9class.PNG", width: 50%), 
   caption: [*九个四体纠缠家族*]
 )
 具体的纠缠以及数学分析我们留在后面，这里先解释其余的理论内容。
@@ -24,7 +23,7 @@ LU 操作（Local Unitary）相当于在数学上乘上一个酉矩阵 $U_A time
 === 九种四体纠缠
 研究表明@verstraete_four_2002，三体纠缠中每个态可以通过 SLOCC 操作转换为 GHZ 态，或 W 态 ，从而导致三量子比特纠缠的两种不等价方式。GHZ 态通常被认为具有真正的三体纠缠，而 W 态具有特殊性质，即如果追踪掉一个量子比特，则其两体纠缠的期望值最大。
 #figure(
-  image("figure/3par.PNG", width: 50%), 
+  image("/figure/3par.PNG", width: 50%), 
   caption: [*三体以及四体纠缠家族*]
 )
 

@@ -1,5 +1,6 @@
-#import "lib.typ": *
+#import "/lib.typ": *
 #show: thmrules
+
 #def("施密特秩(Schmidt Rank)")[
     量子态 $ket(Psi)$的*施密特秩（Schmidt Rank）*，在数学上严格等于其系数矩阵的矩阵秩，即 $Rank(C)$。
 ]

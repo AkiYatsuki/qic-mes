@@ -1,5 +1,4 @@
-#import "lib.typ"
-#import lib:*
+#import "/lib.typ": *
 #show: thmrules.with(qed-symbol: $square$)
 
 == 等概率原理的信息论表述

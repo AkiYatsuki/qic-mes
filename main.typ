@@ -31,23 +31,23 @@
 
 = 最大纠缠态(MES)是什么
 //  MES的定义
-#include "mes-def.typ"
+#include "on-mes/mes-def.typ"
 //  MES的工作方式
 //  ==E_T如何表征MES
-#include "et-calc.typ"
+#include "on-mes/et-calc.typ"
 //  ==MES为隐形传态的充要条件
 #pagebreak()
 == MES为隐形传态的充分必要条件
-#include "mes-tele-pf.typ"
+#include "on-mes/mes-tele-pf.typ"
 = 信息论视角: 为什么等概率蕴涵了最大信息? 
-#include "equiprob.typ"
+#include "equiprob/equiprob.typ"
 = 从部分纠缠构建最大纠缠: 过滤算符与SLOCC等价类
 == SLOCC(Stochastic Local Operations and Classical Communication)
-#include "slocc.typ"
+#include "slocc/slocc.typ"
 == 可以转化为MES的态: 双体纯态(Bipartite Pure State)的系数矩阵施密特满秩
-#include "schmidt-rank.typ"
+#include "slocc/schmidt-rank.typ"
 == 实际操作: 过滤算符$cal(F)$
-#include "procrustean.typ"
+#include "slocc/procrustean.typ"
 
 = 结论
 本文围绕"从等概率到完美量子隐形传态"这一主线，从定义、信息论本质及实验可实现性三个层面展开了系统研究。
@@ -60,4 +60,4 @@
 
 综上所述，最大纠缠态的等概率结构既是信息论中熵最大化的自然结果，也是实现完美量子隐形传态的物理基础。
 
-#bibliography(("refs.bib", "zzm-ref.bib", "mhr-ref.bib"), style: "ieee")
+#bibliography(("ref/refs.bib", "ref/zzm-ref.bib", "ref/mhr-ref.bib"), style: "ieee")

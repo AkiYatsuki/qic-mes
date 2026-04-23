@@ -1,5 +1,4 @@
-#import "lib.typ"
-#import lib: *
+#import "/lib.typ": *
 #show: thmrules
 
 == 从$E_T$看MES
@@ -40,8 +39,6 @@
   caption: ["*GS的$E_T$计算2*"]
 )
 */
-
-#import "lib.typ": *
 
 === 4 qubit 情况（G-state）
 
