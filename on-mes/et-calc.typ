@@ -1,4 +1,4 @@
-#import "/lib.typ": *
+#import "/utils/_lib.typ": *
 #show: thmrules
 
 == 从$E_T$看MES

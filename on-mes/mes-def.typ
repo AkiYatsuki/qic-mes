@@ -1,4 +1,4 @@
-#import "/lib.typ": *
+#import "/utils/_lib.typ": *
 #show: thmrules.with(qed-symbol: $square$)
 
 == 施密特分解定理

@@ -1,4 +1,4 @@
-#import "/lib.typ": *
+#import "/utils/_lib.typ": *
 #show: thmrules
 
 #def("SLOCC")[

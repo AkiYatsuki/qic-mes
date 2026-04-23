@@ -1,4 +1,4 @@
-#import "/lib.typ": *
+#import "/utils/_lib.typ": *
 #show: thmrules
 #thm[
   对于任意 $N$ 比特未知量子态 $ket(Psi)_(a_1,...,a_N)$，设发送方 A 与接收方 B 预先共享资源态

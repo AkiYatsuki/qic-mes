@@ -1,4 +1,4 @@
-#import "/lib.typ": *
+#import "/utils/_lib.typ": *
 #show: thmrules
 
 #def("施密特秩(Schmidt Rank)")[
