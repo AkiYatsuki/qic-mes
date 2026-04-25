@@ -3,12 +3,12 @@
 
 == 等概率原理的信息论表述
 而我们也可以证明, MES的施密特分解等概率性, 是信息论中使得冯诺伊曼熵最大的充分必要条件. 
-#def("Von Neumann Entropy")[
+#def("Von Neumann Entropy", label: <def:von-neumann>)[
   冯诺伊曼熵(Von Neumann Entropy)是对于信息论中香农熵(Shannon Entropy)的推广, 其形式为: 
   $
     S(rho) := -rho tr(rho)
   $
-]<def:von-neumann>
+]
 
 在@yeo_teleportation_2006 中, 将Alice后观测态的密度矩阵表述为: 
 $
