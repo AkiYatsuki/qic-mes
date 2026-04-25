@@ -1,14 +1,14 @@
 #import "/utils/_lib.typ": *
-#show: thmrules.with(qed-symbol: $square$)
+#show ref: theoretic.show-ref
 
 == 施密特分解定理
-#thm("Schmidt Decomposition Theorem")[
+#theorem("Schmidt Decomposition Theorem", label: <thm:schmidt>)[
   任何纠缠态都可以通过施密特分解表示为双正交的形式，且系数为正实数 ：
   $
     Psi (A, B) = sum_(i = 1)^(d) c_i ket(alpha_i) times.o ket(beta_i)
   $
   其中, $d$为系统的希尔伯特空间维数, 即$d = 2^n$. 且系数满足归一化$sum_(i=1)^(d) c_i ^2 = 1$
-]<thm:schmidt>
+]
 
 == 最大纠缠态(MES)的定义
 见@chen_general_2006 最大纠缠态(MES)的数学定义如下: 

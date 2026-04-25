@@ -1,5 +1,5 @@
 #import "/utils/_lib.typ": *
-#show: thmrules
+#show ref: theoretic.show-ref
 
 == 从$E_T$看MES
 在@rigolin_quantum_2005 中, 作者使用$E_T$来表征一组纠缠基是否为最大纠缠态. 具体表示为, 

@@ -1,5 +1,5 @@
 #import "/utils/_lib.typ": *
-#show: thmrules.with(qed-symbol: $square$)
+#show ref: theoretic.show-ref
 
 == 等概率原理的信息论表述
 而我们也可以证明, MES的施密特分解等概率性, 是信息论中使得冯诺伊曼熵最大的充分必要条件. 

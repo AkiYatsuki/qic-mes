@@ -1,5 +1,5 @@
 #import "/utils/_lib.typ": *
-#show: thmrules
+#show ref: theoretic.show-ref
 
 #def("SLOCC")[
     SLOCC（Stochastic Local Operations and Classical Communication), 即随机局域操作与经典通信. SLOCC引入了概率——局域非幺正变换。这样的变换将不再是一定成功的（幺正变换）而将有一定的*失败几率*。不过基于此，可以相互转化（也即概率不为0地相互变化）更为容易。我们脱离了局域幺正变化（对应$U(2N)$）

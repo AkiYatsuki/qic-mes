@@ -1,4 +1,5 @@
 #import "/utils/_lib.typ": *
+#show ref: theoretic.show-ref
 
 由于@thm:schmidt, 
 构造 $d$ 维过滤算符（POVM）Alice 需要在她的 $d$ 维空间中构造一个极化依赖的吸收器（或反射器） 。在数学上，这对应于一个 $d times d$ 的对角广义测量算符 $cal(F)$：(见充分性证明)

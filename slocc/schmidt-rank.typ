@@ -1,10 +1,10 @@
 #import "/utils/_lib.typ": *
-#show: thmrules
+#show ref: theoretic.show-ref
 
 #def("施密特秩(Schmidt Rank)")[
     量子态 $ket(Psi)$的*施密特秩（Schmidt Rank）*，在数学上严格等于其系数矩阵的矩阵秩，即 $Rank(C)$。
 ]
-#thm("施密特满秩")[
+#theorem("施密特满秩")[
     如果$ket(Psi)$可以通过SLOCC转化成$ket("MES"_d)$, 则初始施密特秩必须为$d$. 反之亦然. @horodecki_quantum_2009
 ]
 #v(1em)
