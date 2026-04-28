@@ -5,7 +5,7 @@
 //#let title = "从等概率到完美隐形传态"
 #let title = "从等概率到完美量子隐形传态"
 #let subtitle = "最大纠缠态及熵最大化"
-#let author = "颜子涵(组长), 张智铭, 曹秦畅, 马豪嵘" 
+#let author = "颜子涵(组长), 张智铭, 曹秦畅, 马豪嵘"
 #let authors = ("颜子涵(组长)", "张智铭", "曹秦畅", "马豪嵘")
 
 #align(center)[
@@ -39,7 +39,7 @@
 #pagebreak()
 == MES为隐形传态的充分必要条件
 #include "on-mes/mes-tele-pf.typ"
-= 信息论视角: 为什么等概率蕴涵了最大信息? 
+= 信息论视角: 为什么等概率蕴涵了最大信息?
 #include "equiprob/equiprob.typ"
 = 从部分纠缠构建最大纠缠: 过滤算符与SLOCC等价类
 == SLOCC(Stochastic Local Operations and Classical Communication)
