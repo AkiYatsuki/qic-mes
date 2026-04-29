@@ -46,7 +46,7 @@ $
   ket(Psi)_(a_1,...,a_N)
   ⊗
   ket("MES")_(A_1,...,A_N;B_1,...,B_N)\
-
+ 
   &=
   (
     sum_(alpha,beta=1)^4 hat(M)_(alpha beta)
@@ -54,6 +54,8 @@ $
   ket(Psi)_(a_1,...,a_N)
   ⊗
   ket("MES")_(A_1,...,A_N;B_1,...,B_N)\
+
+  &在量子传输中Alice用测量算符测量未知量子态。由于测量算符是归一的，我们可以用一个求和算式表示出所有可能性。\
 
   &=
   sum_(alpha,beta=1)^4
