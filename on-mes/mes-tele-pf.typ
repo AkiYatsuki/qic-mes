@@ -46,7 +46,7 @@ $
   ket(Psi)_(a_1,...,a_N)
   ⊗
   ket("MES")_(A_1,...,A_N;B_1,...,B_N)\
-
+ 
   &=
   (
     sum_(alpha,beta=1)^4 hat(M)_(alpha beta)
@@ -54,6 +54,8 @@ $
   ket(Psi)_(a_1,...,a_N)
   ⊗
   ket("MES")_(A_1,...,A_N;B_1,...,B_N)\
+
+  &"在量子传输中Alice用测量算符测量未知量子态。由于测量算符是归一的，我们可以用一个求和算式表示出所有可能性。"\
 
   &=
   sum_(alpha,beta=1)^4
@@ -67,28 +69,13 @@ $
   frac(1, 2^N)
   sum_(alpha,beta=1)^4
   ket(mu_(alpha beta))
-  (
-    ""_A bra(phi_(i j))
-    ⊗
-    ""_a bra(psi_(i j))
-    hat(U)_(alpha beta)^dagger
-  )
-  (
-    ket(phi_(i j))_A
-    ⊗
-    ket(psi_(i j))_B
-  )
-  ket(Psi)_(a_1,...,a_N)\
-
-  &=
-  frac(1, 2^N)
-  sum_(alpha,beta=1)^4
-  ket(mu_(alpha beta))
   ""_A braket(phi_(i j), phi_(i j))
   ket(psi_(i j))_(B a)
   bra(psi_(i j))
   hat(U)_(alpha beta)^dagger
   ket(Psi)_(a_1,...,a_N)\
+
+  &"将测量算符与纠缠态结合，我们可以处理得到投影算符：将未知态投影至Bob手上的纠缠量子中，从而达到传输未知量子的结果"\
 
   &=
   frac(1, 2^N)
@@ -110,6 +97,8 @@ $
     hat(U)_(alpha beta)^dagger
     ket(Psi)_(B_1,...,B_N)
   )\
+
+ &"将测量算符中的右矢与纠缠态对比，发现两者互为幺正变换，且该幺正变换与Bob所持有的未知态量子所受干扰变换一致。"\
 
  &=
   frac(1, 2^N)
