@@ -37,7 +37,7 @@
 #include "on-mes/et-calc.typ"
 //  ==MES为隐形传态的充要条件
 #pagebreak()
-== MES为隐形传态的充分必要条件
+== MES为隐形传态的充分条件
 #include "on-mes/mes-tele-pf.typ"
 = 信息论视角: 为什么等概率蕴涵了最大信息?
 #include "equiprob/equiprob.typ"
