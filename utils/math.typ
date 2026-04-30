@@ -1,7 +1,7 @@
 
-#let bra(x, sub: none) = $""_#sub chevron.l #x |$
-#let ket(x, sub: none) = $| #x chevron.r_#sub$
-#let braket(x, y) = $chevron.l #x | #y chevron.r$
+#let bra(x, sub: none) = $""_#sub chevron.l #x|$
+#let ket(x, sub: none) = $|#x chevron.r_#sub$
+#let braket(x, y) = $chevron.l #x|#y chevron.r$
 #let ketbra(x, y, sub: none) = {
   if sub == none {
     $ket(#x) bra(#y)$
